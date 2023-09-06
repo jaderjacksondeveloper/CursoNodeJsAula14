@@ -1,3 +1,5 @@
+Toda documentação pode ser vistam em: ttps://sequelize.org/docs/
+
 COMO RODAR O PROJETO BAIXADO
 Instalar todas as dependencias indicada pelo package.json
 ### npm install
