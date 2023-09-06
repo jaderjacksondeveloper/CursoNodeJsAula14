@@ -1,6 +1,11 @@
 Toda documentação pode ser vistam em: ttps://sequelize.org/docs/
 
 COMO RODAR O PROJETO BAIXADO
+CRIAÇÃO DE PASTAS
+controller (arquivos: contactMessage.js e home.js) dentro da pasta o arquivo home só é digitado após a criação dos arquivos da models
+
+models
+
 
 1ª Passo rodar as dependências
 Instalar todas as dependencias indicada pelo package.json
