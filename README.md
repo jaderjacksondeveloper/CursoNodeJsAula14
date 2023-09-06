@@ -1,20 +1,38 @@
 Toda documentação pode ser vistam em: ttps://sequelize.org/docs/
 
 COMO RODAR O PROJETO BAIXADO
+
+1ª Passo rodar as dependências
 Instalar todas as dependencias indicada pelo package.json
 ### npm install
 
+2ª criar a base de dados ou reconfigurar a que já esta feita
 Criar a base de dados "cobaia" no MySQL
 Alterar as credencias do banco de dados no arquivo ".env"
 
-Executar as migrations
+3ª alterar as dependencias do arquivo .env
+
+
+4ª Executar a migrations para criar as tabelas
+
 ### npx sequelize-cli db:migrate
 
-Executar as seeders
+
+
+5ª Executar as seeders, ou seja, executar informações na tabela) criar registro
 ### npx sequelize-cli db:seed:all
 
-Rodar o projeto usando o nodemon
+
+6ª Rodar o projeto usando o nodemon
 ### nodemon app.js
+
+
+OBS: o arquivo home.js é uma controller..
+
+FIM
+
+MAIS DICAS
+
 
 Abrir o endereço no navegador para acessar a página inicial
 ### http://localhost:8080/home
